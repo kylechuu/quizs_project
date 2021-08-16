@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-size: 28px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a class="active" href="http://localhost:8080">Home</a></li>
+    <li><a href="login_handle">Log in</a></li>
+    <li><a href="registration_handle">Registration</a></li>
+    <li><a href="record">Records</a></li>
+    <li><a href="feedback_handle">Feedback</a></li>
+    <li><a href="contact_us.html">Contact Us</a></li>
+    <li><a href="logout">Log Out</a></li>
+</ul>
+
+<h3>Choose a quiz type</h3>
+<div>
+    <a href="quiz">C question</a>
+    <a href="quiz">Python question</a>
+    <a href="quiz">Java question</a>
+</div>
+
+</body>
+</html>
